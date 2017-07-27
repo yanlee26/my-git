@@ -285,17 +285,10 @@ usage: git stash list [<options>] 查看当前 stash 的列表
    or: git stash clear  清空 stash 中所有内容
 ```
 
-# oh-my-zsh 常用命令
+#  配置别名
 ```
-alias g='git'
-alias ga='git add'
-alias gco='git checkout'
-alias gcb='git checkout -b'
-alias gcm='git checkout master'
-alias gcd='git checkout develop'
-alias gd='git diff'
-alias gf='git fetch'
-alias gfo='git fetch origin'
-alias gl='git pull'
-alias gp='git push'
+$ git config --global alias.st status
+$ git config --global alias.co checkout
+$ git config --global alias.ci commit
+$ git config --global alias.br branch
 ```
